@@ -11,3 +11,7 @@ Execution: Run the script using Python. It reads the PDB file, extracts atom coo
 Output: The script prints:
 Lengths of protein and DNA coordinate lists.
 Mean squared deviation and RMSD values for protein and DNA structures after alignment.
+
+### Notes
+- Ensure proper alignment of structures before running the script to obtain accurate RMSD values
+- Adjust the script as needed for specific PDB file formats or additional processing requirements
