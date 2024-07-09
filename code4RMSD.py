@@ -1,10 +1,10 @@
 import numpy as np
-f=open("alignedfile6_dna_protein.pdb")
+f=open("alignedfile_dna_protein.pdb")
 p1c1=[]
 p1c2=[]
 p2c1=[]
 p2c2=[]
-d1c1=[];d1c2=[];d2c1=[];d2c2=[];
+d1c1=[];d1c2=[];d2c1=[];d2c2=[];  # create emplty lists to append protein and DNA coordinates
 for line in f:
  if(line.split()[0]=='ATOM'):
   if(line.split()[2]=='P' and line.split()[4]=='A'):
